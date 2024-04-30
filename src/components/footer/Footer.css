@@ -20,8 +20,8 @@
   list-style: none;
   display: grid;
   grid-template-columns: auto auto auto auto;
-  gap: 15px;
   margin-bottom: 30px;
+  gap: 15px;
 }
 
 .footer-menu__item {
