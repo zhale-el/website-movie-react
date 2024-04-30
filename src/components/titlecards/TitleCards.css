@@ -1,0 +1,29 @@
+.titlecards {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.titlecards__title {
+  margin-bottom: 8px;
+}
+.titlecards__list {
+  display: flex;
+  gap: 15px;
+  overflow-x: scroll;
+}
+.titlecards__list::-webkit-scrollbar {
+  display: none;
+}
+
+.titlecards-card {
+  position: relative;
+}
+.titlecards-card__image {
+  width: 240px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.titlecards-card__name {
+  position: absolute;
+  bottom: 15px;
+  right: 10px;
+}

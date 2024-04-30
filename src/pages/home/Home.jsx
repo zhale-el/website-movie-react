@@ -5,10 +5,14 @@ import heroImage from "../../assets/images/hero_banner.jpg";
 import heroImageTitle from "../../assets/images/hero_title.png";
 import playIcon from "../../assets/images/play_icon.png";
 import infoIcon from "../../assets/images/info_icon.png";
+import TitleCards from "../../components/titlecards/TitleCards";
 const Home = () => {
   return (
     <div className="home">
+      {/* ======== navbar======== */}
       <Navbar />
+
+      {/* ======== hero ======== */}
       <div className="hero">
         <img src={heroImage} alt="banner image" className="hero__img" />
         <div className="hero-caption">
@@ -33,6 +37,7 @@ const Home = () => {
               More Info
             </button>
           </div>
+          <TitleCards />
         </div>
       </div>
     </div>
