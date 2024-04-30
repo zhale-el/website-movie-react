@@ -3,7 +3,8 @@
   margin-bottom: 30px;
 }
 .titlecards__title {
-  margin-bottom: 8px;
+  color: #e5e5e5;
+  margin-bottom: 10px;
 }
 .titlecards__list {
   display: flex;
